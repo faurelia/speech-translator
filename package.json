@@ -1,0 +1,22 @@
+{
+  "name": "speech-translator",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "dotenv": "^18.0.7",
+    "vercel": "^63.1.2",
+    "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@translated/lara": "^1.16.1",
+    "tailwindcss": "^4.3.3",
+    "toastify-js": "^1.12.0"
+  }
+}

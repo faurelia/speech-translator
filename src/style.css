@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lexend:wght@100..900&display=swap");
+@import "tailwindcss";
+
+:root {
+  accent-color: var(--color-amber-600);
+  color-scheme: light;
+}
+
+::selection {
+  color: white;
+  background-color: var(--color-amber-600);
+}
+
+body {
+  font-family: "Google Sans", sans-serif;
+  background-color: var(--color-zinc-100);
+  color: var(--color-zinc-800);
+}
+
+.toastify {
+  background-image: unset;
+  box-shadow: unset;
+  @apply bg-zinc-900 text-white rounded-md shadow-sm;
+}
